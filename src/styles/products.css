@@ -1,0 +1,17 @@
+.products-body{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.carrusel{
+    margin-top: 50px;
+}
+.info-cart{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.info-tag{
+    font
+}

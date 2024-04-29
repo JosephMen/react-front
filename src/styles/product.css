@@ -1,0 +1,26 @@
+.product-card{
+    max-width: 320px;
+    /* background-color: blueviolet; */
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.product-card:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+}
+.footer-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0;
+}

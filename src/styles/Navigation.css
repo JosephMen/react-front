@@ -1,0 +1,58 @@
+.Navigation{
+    width: 100%;
+    padding: 10px;
+    background: var(--principal-color);
+    font-size: 1.2rem;
+}
+.Navigation ul {
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    max-width: 1100px;
+}
+.Navigation ul li {
+    padding: 1em 0.5em;
+}
+li button{
+    font-size: inherit;
+    background-color: inherit;
+}
+li a, li button {
+    padding: 0 5px;
+    transition: .2s;
+    text-decoration: none;
+    color: inherit;
+}
+li a:hover, li button:hover {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+.icon{
+    margin-right: 3px;
+}
+.left-margin{
+    margin-left: auto;
+}
+.logo{
+    font-weight: 700;
+    background-color: var(--accent-color);
+    color: hsl(229, 100%, 90%);
+    border-radius: 5px;
+}
+.route-active{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+@media (width < 520px){
+    .Navigation{
+        font-size: 1rem;
+    }
+    .Navigation ul li {
+        padding: 0.8em 0.2em;
+    }
+    .icon{
+        display: none;
+    }
+}
