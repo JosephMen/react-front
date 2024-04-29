@@ -1,8 +1,6 @@
-# React + Vite
+## App FrontEnd para react que se comunica con el backend dockerizado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Se utiliza un dummie de productos para poder desplegar en la vista
+- El Backend no se pudo desplegar correctamente porque la interfaz de itrm tools no permite controlar los headers para aprobar los preflights
+- Para iniciar sesion en la vista solo se necesita llenar los espacios de login correctamente
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
